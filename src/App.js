@@ -15,7 +15,7 @@ export default function App() {
   },[]);
 
   return (
-    <div className="w-full h-full flex flex-col gap-y-1 justify-center items-center">
+    <div className="w-full h-full flex flex-col gap-y-1 justify-center items-center bg-gray-200">
       <Header />
       <Blogs />
       <Pagination />
